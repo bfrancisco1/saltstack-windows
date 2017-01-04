@@ -1,4 +1,6 @@
 base:
+  '*':
+    - example
   'roles:web-server':
     - match: grain
     - iis-web
